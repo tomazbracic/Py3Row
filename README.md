@@ -67,6 +67,8 @@ nato pa ...
   
 pa delaj kot ROOT zaradi permissionov na USB, ali pa uredi le te.
 
+nato inicializiraj v object -> .... moj_object = pyrow.PyErg(erg)
+
 ---------------------------------------
 
 `pyrow.PyErg.get_status()` - returns status of machine as a number
