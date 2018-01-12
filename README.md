@@ -60,6 +60,13 @@ Include PyRow in your code with the following line of code:
    ergs = pyrow.find()
    erg = pyrow.pyrow(ergs[0])
 
+PAZI tukaj... ta ergs je "generator" stuff of pythona. Ne mores tko delat, kot pise. Lahko naredis
+  ergs = pyrow.find()
+nato pa ... 
+  erg = next(ergs)
+  
+pa delaj kot ROOT zaradi permissionov na USB, ali pa uredi le te.
+
 ---------------------------------------
 
 `pyrow.PyErg.get_status()` - returns status of machine as a number
